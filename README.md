@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ReachIt
 
-## Getting Started
+> **Your incident. Our reach.**
 
-First, run the development server:
+ReachIt is an AI-powered citizen journalism and incident amplification platform built to help important local stories reach public attention instead of dying because of low social reach.
+
+Users can upload videos, photos, or reports related to:
+
+* corruption
+* scams
+* police brutality
+* civic failures
+* accidents
+* protests
+* harassment
+* public emergencies
+
+Our system verifies incidents, generates AI summaries, and amplifies them through official media and social channels to maximize public visibility.
+
+---
+
+# 🚀 Features
+
+* 📤 Incident Upload System
+* 🤖 AI Generated Summaries
+* 🛡️ Human + AI Verification
+* 📡 Social Media Amplification
+* 📈 Real-time Reach Analytics
+* 🔥 Trending Incident Dashboard
+* 👤 Anonymous Reporting
+* 🌐 Official Media Distribution
+* 📱 Mobile-first Experience
+* ⚡ Live Incident Feed
+
+---
+
+# 🧠 Core Idea
+
+Most important local incidents never get attention because:
+
+* they lack audience reach
+* traditional media ignores them
+* social algorithms bury them
+
+ReachIt solves this by acting as a **public amplification engine**.
+
+```txt
+Citizen uploads incident
+        ↓
+AI processes & summarizes
+        ↓
+Verification system
+        ↓
+Posted on official social/media channels
+        ↓
+Millions of people see the issue
+```
+
+---
+
+# 🖥️ Tech Stack
+
+## Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+* Lucide Icons
+
+## Backend
+
+* Node.js
+* Express.js
+
+## Database
+
+* PostgreSQL
+* MongoDB
+
+## Infrastructure
+
+* Cloudflare R2
+* BullMQ
+* WebSockets
+
+## AI
+
+* Gemini Flash API
+
+---
+
+# 🎨 UI Direction
+
+The platform is designed to feel like:
+
+* a futuristic media control room
+* a viral incident network
+* a live civic intelligence dashboard
+* a next-generation public accountability platform
+
+---
+
+# 📸 Platform Goals
+
+* Give visibility to ignored stories
+* Empower citizens to report safely
+* Create public accountability
+* Build a decentralized civic media ecosystem
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/reachit.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+app/
+ ├── page.tsx
 
-## Learn More
+components/
+ ├── Navbar.tsx
+ ├── HeroSection.tsx
+ ├── HowItWorks.tsx
+ ├── ImpactSection.tsx
+ ├── ExamplesSection.tsx
+ ├── MediaSection.tsx
+ ├── AboutSection.tsx
+ ├── Footer.tsx
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🌍 Vision
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> “Important stories should not die because of low reach.”
 
-## Deploy on Vercel
+ReachIt aims to become India’s largest AI-powered incident amplification and citizen journalism network.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📜 License
+
+MIT License
+
+---
+
+# 👨‍💻 Author
+
+Built by Arman & Team ReachIt
