@@ -114,7 +114,7 @@ The platform is designed to feel like:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/reachit.git
+git clone https://github.com/mdarmanadl-byte/reachit.git
 ```
 
 Install dependencies:
